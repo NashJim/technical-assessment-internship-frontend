@@ -12,7 +12,7 @@
     <div class="container mt-5">
         <h1 class="text-center">Welcome to the Frontend Assessment</h1>
         <!-- TODO: Implement Task 1 here -->
-         <!-- Responsive Navbar -->
+        <!-- Responsive Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">Softinn</a>
@@ -29,13 +29,12 @@
             </div>
         </nav>
         <!-- TODO: Implement Task 2 here -->
-         <!-- Card Grid -->
+        <!-- Card Grid -->
         <div class="container my-5">
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="sample_img/admin.jpg" class="card-img-top"
-                            alt="Dashboard project">
+                        <img src="sample_img/admin.jpg" class="card-img-top" alt="Dashboard project">
                         <div class="card-body">
                             <h5 class="card-title">Admin Dashboard</h5>
                             <p class="card-text">A clean dashboard for managing users and analytics.</p>
@@ -45,8 +44,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="sample_img/PersonalBlog.jpeg" class="card-img-top"
-                            alt="Blog project">
+                        <img src="sample_img/PersonalBlog.jpeg" class="card-img-top" alt="Blog project">
                         <div class="card-body">
                             <h5 class="card-title">Personal Blog</h5>
                             <p class="card-text">A minimal blog with comment support and dark mode.</p>
@@ -56,8 +54,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">
-                        <img src="sample_img/e-commerce.jpeg"
-                            class="card-img-top" alt="E-commerce project">
+                        <img src="sample_img/e-commerce.jpeg" class="card-img-top" alt="E-commerce project">
                         <div class="card-body">
                             <h5 class="card-title">E-Commerce UI</h5>
                             <p class="card-text">Product catalog with cart preview and smooth checkout.</p>
@@ -68,6 +65,26 @@
             </div>
         </div>
         <!-- TODO: Implement Task 3 here -->
+        <!-- Contact Form -->
+        <div class="container my-5">
+            <h2 class="text-center mb-4">Have questions? Reach out!</h2>
+            <form id="contact-form">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="name" placeholder="Your name" required>
+                    <label for="name">Your name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" id="message" placeholder="Your message here..." rows="4"
+                        required></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="btn btn-success w-100">Send Message</button>
+            </form>
+        </div>
     </div>
 </body>
 
